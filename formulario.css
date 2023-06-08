@@ -1,0 +1,117 @@
+.titulo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+}
+h2{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.Logo{
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+
+form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width: 100%;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.nombre, 
+.user{
+    background-color: rgb(212, 211, 211);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+}
+
+.email, 
+.pass{
+    background-color: rgb(212, 211, 211);
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 25px;
+}
+
+.nombre:focus, 
+.user:focus, 
+.email:focus, 
+.pass:focus{
+    background-color: white;
+    border: 2px solid rgb(216, 47, 47);
+    outline: none;
+}
+
+.nombre:hover, 
+.user:hover, 
+.email:hover, 
+.pass:hover{
+    background-color: white;
+    border: 2px solid rgb(216, 47, 47);
+    outline: none;
+}
+
+
+
+button{
+    text-align: center;
+    color: white;
+    background-color: rgb(216, 47, 47);
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:focus{
+    background-color:rgb(247, 88, 88);
+    border: 2px solid white;
+    outline: none;
+}
+
+button:hover{
+    background-color:rgb(247, 88, 88);
+    border: 2px solid white;
+    outline: none;
+}
+
+.grupo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.grupo1, 
+.grupo2{
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grupo3, 
+.grupo4{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.grupo5{
+    display: inline-block;
+    margin-top: 10px;
+}
